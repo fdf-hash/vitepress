@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "FuDongFei",
   description: "A VitePress Site",
-  base: '/fu/',
+  base: '/',
   head: [
     [
       'link',
@@ -15,7 +15,7 @@ export default defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `/fu/images/58969488.jpg`
+        href: `/images/58969488.jpg`
       }
     ]
   ],

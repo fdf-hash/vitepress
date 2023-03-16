@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="../../../public/images/58969488.jpg" alt="" srcset="">
+        <img src="/public/images/58969488.jpg" alt="" srcset="">
     </div>
 </template>
 
