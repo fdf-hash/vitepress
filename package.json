@@ -12,5 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.59"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "element-plus": "^2.3.0",
+    "icon-ultra": "^2.0.15",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "3.2.47"
   }
 }

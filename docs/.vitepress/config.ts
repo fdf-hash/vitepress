@@ -1,28 +1,44 @@
 import { defineConfig } from 'vitepress'
+import nav from './config/nav'
+import sidebar from './config/slider'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  lang: 'zh-CN',
+  title: "FuDongFei",
   description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
+  base: '/fu/',
+  head: [
+    [
+      'link',
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `/fu/images/58969488.jpg`
       }
-    ],
+    ]
+  ],
+  themeConfig: {
+    nav,
+
+    sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+      { icon: 'github', link: 'https://github.com/fdf-hash' }
+    ],
+
+
+    logo: '/images/58969488.jpg',
+    
+    footer: {
+      message: 'VitePress 学习之路',
+      copyright: 'Copyright © 2023-present Evan You'
+    },
+
+    docFooter: {
+      prev: '上一节',
+      next: '下一节'
+    }
+  },
 })

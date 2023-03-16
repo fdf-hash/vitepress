@@ -1,25 +1,32 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: "演示文档"
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: 笔记
+  text: 个人观赏·^_^
+  tagline: 前端牛掰~
+
+  image:
+    src: /images/58969488.jpg
+    alt: cat-kit
+
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 演示1
+      link: /demo1/
+
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 演示2
+      link: /demo2/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 布局
+    details: 页面快速布局
+  - title: 数据
+    details: 数据可配置化
+  - title: 展示
+    details: 响应迅速，提搞渲染效率
 ---
 
