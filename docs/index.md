@@ -14,12 +14,12 @@ hero:
 
   actions:
     - theme: brand
-      text: 演示1
-      link: /demo1/
+      text: Start
+      link: /start/
 
     - theme: alt
-      text: 演示2
-      link: /demo2/
+      text: Upgrade
+      link: /upgrade/
 
 features:
   - title: 布局

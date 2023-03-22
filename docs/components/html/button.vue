@@ -1,9 +1,5 @@
 <template>
   <div>
-    <button type="button">默认按钮</button>
+    <button type="button">默认按钮12312312</button>
   </div>
 </template>
-
-<script lang="ts" setup>
-
-</script>

@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import nav from './config/nav'
 import sidebar from './config/slider'
+import { demoContainer } from './config/plugins'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,6 +20,15 @@ export default defineConfig({
       }
     ]
   ],
+  lastUpdated: true,
+  
+  markdown: {
+    lineNumbers: true,
+
+    config: md => {
+      md.use(...demoContainer('demo'))
+    }
+  },
   themeConfig: {
     nav,
 
@@ -42,3 +52,4 @@ export default defineConfig({
     }
   },
 })
+

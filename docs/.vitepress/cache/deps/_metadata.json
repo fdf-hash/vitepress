@@ -1,29 +1,13 @@
 {
-  "hash": "0d4c0539",
-  "browserHash": "7e9358fe",
+  "hash": "5afd7b48",
+  "browserHash": "2af904e7",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "dab361c5",
-      "needsInterop": false
-    },
-    "@theme/index": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+vitepress@1.0.0-alpha.60/node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "c9a75659",
-      "needsInterop": false
-    },
-    "icon-ultra": {
-      "src": "../../../../node_modules/.pnpm/registry.npmmirror.com+icon-ultra@2.0.15/node_modules/icon-ultra/dist/index.js",
-      "file": "icon-ultra.js",
-      "fileHash": "43a9c16d",
+      "fileHash": "090fa2f0",
       "needsInterop": false
     }
   },
-  "chunks": {
-    "chunk-R647EDCJ": {
-      "file": "chunk-R647EDCJ.js"
-    }
-  }
+  "chunks": {}
 }
