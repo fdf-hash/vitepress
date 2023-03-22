@@ -1,0 +1,16 @@
+/* .vitepress/theme/custom.css */
+:root {
+    --vp-c-brand: rgb(132, 15, 241);
+    --vp-c-brand-light: rgb(132, 15, 241);
+}
+
+:root .VPButton.brand:hover {
+    border-color: rgb(4, 211, 238);
+    background-color: rgb(4, 211, 238);
+}
+
+:root .tip{
+    color: #fff;
+    border-color: #d1c9c2;
+    background-color: #757c5b;
+}

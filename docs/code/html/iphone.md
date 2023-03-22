@@ -12,3 +12,9 @@
 ::: demo
 render(code/html/iphone/index)
 :::
+
+## 简单的弹窗
+
+::: demo
+render(code/html/iphone/index2)
+:::
