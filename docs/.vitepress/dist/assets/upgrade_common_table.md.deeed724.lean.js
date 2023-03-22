@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.89f6bd1b.js";const _=JSON.parse('{"title":"表格","description":"","frontmatter":{"title":"表格"},"headers":[],"relativePath":"upgrade/common/table.md","lastUpdated":1679472416000}'),o={name:"upgrade/common/table.md"};function r(c,n,s,p,d,m){return t(),a("div")}const i=e(o,[["render",r]]);export{_ as __pageData,i as default};
