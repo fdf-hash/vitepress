@@ -5,7 +5,7 @@ title: "演示文档"
 
 hero:
   name: 笔记
-  text: 个人观赏·^_^
+  text: 个人
   tagline: 前端牛掰~
 
   image:

@@ -13,7 +13,7 @@
 render(code/html/iphone/index)
 :::
 
-## 简单的弹窗
+## 九宫格
 
 ::: demo
 render(code/html/iphone/index2)
